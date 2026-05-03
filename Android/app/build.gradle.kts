@@ -6,7 +6,7 @@ plugins {
 android {
     namespace = "com.mesen2.android"
     compileSdk = 36
-    ndkVersion = "27.2.12479018"
+    ndkVersion = "28.0.12433566"  // NDK r28; update to your r30 string (e.g. "30.0.XXXXXXXX")
 
     defaultConfig {
         applicationId = "com.mesen2.android"
