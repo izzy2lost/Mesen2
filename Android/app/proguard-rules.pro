@@ -1,0 +1,4 @@
+-keep class com.mesen2.android.NativeLib { *; }
+-keepclassmembers class com.mesen2.android.NativeLib { *; }
+-keep class com.mesen2.android.EmulatorActivity { *; }
+-dontwarn kotlin.**
